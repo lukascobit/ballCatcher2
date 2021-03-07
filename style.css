@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(106, 116, 107);
+}
+.Circle{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border: black 2px solid;
+    left: 50%;
+    top: 50%;
+    transition: 1s;
+    border-radius: 20px;
+    
+}
+.Timer{
+    top: 3%;
+    user-select: none;
+}
+.Counter{
+    user-select: none;
+    position: absolute;
+    left: 98%;
+    top: 4%;
+}
+.points{
+    user-select: none;
+    position: absolute;
+    left: 94%;
+    top: 0%;
+}
+.tl{
+    user-select: none; 
+}
